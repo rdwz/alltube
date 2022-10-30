@@ -1,8 +1,6 @@
-# https://docs.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
-
 version: 2
 updates:
-  - package-ecosystem: [ "composer", "github-actions" ]
+  - package-ecosystem: "composer", "github-actions"
     directory: "/" # Location of package manifests
     schedule:
       interval: "weekly"
